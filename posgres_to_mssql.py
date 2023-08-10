@@ -6,7 +6,7 @@ from local_config import PG_USER, PG_PASSWORD, PG_HOST
 
 MSSQL_CONN = (
     r'DRIVER={SQL Server};'
-    r'SERVER=158.160.53.140;'
+    r'SERVER=localhost;'
     r'UID=sa;'
     r'PWD=Some_H@rd_Password;'
 )

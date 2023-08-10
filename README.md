@@ -6,6 +6,7 @@
    - PG_PASSWORD - postgres password
    - PG_HOST - postgres host
 3. Run following commands:
+   - ```pip install -r requirements.txt```
    - ```docker build -t mssql .```
    - ```docker run -p 1433:1433 mssql```
    - ```python mssql_to_posgres.py```
